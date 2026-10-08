@@ -51,3 +51,4 @@ Number of Participants: ${participants}
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+// Registration data is stored using appendFile
