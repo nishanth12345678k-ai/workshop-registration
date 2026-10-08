@@ -5,6 +5,7 @@ const path = require("path");
 const app = express();
 
 const PORT = 3000;
+// Workshop Registration Application
 
 // Read form data
 app.use(express.urlencoded({ extended: true }));
